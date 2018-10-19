@@ -1,0 +1,23 @@
+{
+  "name": "webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./index.js dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stedyyulius/Webpack-from-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stedyyulius/Webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/stedyyulius/Webpack-from-scratch#readme",
+  "devDependencies": {
+    "webpack": "^4.21.0"
+  }
+}
