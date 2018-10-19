@@ -11,7 +11,7 @@ function changeAnimal() {
     'https://c402277.ssl.cf1.rackcdn.com/photos/12800/images/priority_species/beluga-whale.jpg?1479924948',
   ];
   const randomNumber = Math.floor(Math.random(0, 10) * animals.length);
-  
+
   if (document.querySelector('.animal').src !== animals[randomNumber]) {
     document.querySelector('.animal').src = animals[randomNumber];
   }
