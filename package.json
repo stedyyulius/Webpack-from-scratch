@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode=development --entry ./index.js --output-filename ./dist/main.js",
-    "prod": "webpack-dev-server --mode=production --entry ./index.js --output-filename ./dist/main.js"
+    "prod": "webpack --mode=production ./index.js ./dist/main.js"
   },
   "repository": {
     "type": "git",
