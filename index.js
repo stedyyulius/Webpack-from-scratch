@@ -14,4 +14,4 @@ function changeAnimal() {
   ];
   const randomNumber = Math.floor(Math.random(0, 10) * animals.length);
   document.querySelector('.animal').src = animals[randomNumber];
-}
+};
