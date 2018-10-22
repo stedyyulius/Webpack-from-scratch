@@ -1,3 +1,5 @@
+import './index.css'
+
 document.querySelector('#change').addEventListener('click', changeAnimal);
 
 function changeAnimal() {
